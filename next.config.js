@@ -7,5 +7,9 @@ const nextConfig = {
     },
   }
   
-  module.exports = nextConfig
+  module.exports = {
+    basePath: '/Website', // Replace 'your-repository-name' with your actual repository name
+    assetPrefix: '/Website/', // Replace 'your-repository-name' with your actual repository name
+  };
+  
   
