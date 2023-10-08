@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital@1&family=Nunito&family=Playfair+Display&family=Poppins&family=Vidaloka&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  /* --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255; */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Your custom styles */
+/* Add the following CSS to style the scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #D0D0D2;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3120e3;
+  border-radius: 4px;
+}
+
+/* ::-webkit-scrollbar-thumb:hover {
+  background-color: #FCC313;
+} */
+
+input[type='range'] {
+  /* background: linear-gradient(to right, #FCC313 0%, #FCC313 50%, #fff 50%, #fff 100%); */
+  border: solid 1px #D0D0D2;
+  border-radius: 8px;
+  height: 7px;
+  /* width: 356px; */
+  /* outline: none; */
+  background-color: #D0D0D2;
+  /* transition: all 450ms ease-in; */
+  /* -webkit-appearance: none; */
+}
+
+input[type='range']::-webkit-slider-thumb {
+  background-color: #1d36ee;
+}
+
+/*Chrome*/
+/* @media screen and (-webkit-min-device-pixel-ratio:0) {
+  input[type='range'] {
+    overflow: hidden;
+    -webkit-appearance: none;
+    background-color: #D0D0D2;
+  }
+  
+  input[type='range']::-webkit-slider-runnable-track {
+    height: 10px;
+    -webkit-appearance: none;
+    color: #FCC313;
+    margin-top: -1px;
+    color: #FCC313;
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+    width: 20px;
+    -webkit-appearance: none;
+    height: 10px;
+    cursor: ew-resize;
+    background: #fff;
+    box-shadow: -80px 0 0 80px #FCC313;
+    border-radius: 50%;
+  }
+
+} */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  /* font-size: 18px; */
+  background: #fff;
+  padding: 0 0 40px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000000 !important;
+}
+
+.my-custom-pagination-div {
+  /* background-color: #FCC313 !important; */
+  /* color: #FCC313 !important; */
+
+}
+
+.my-custom-pagination-div-active {
+  /* background-color: #FCC313 !important; */
+  color: #163bdf !important;
+
+}
+
+.flash-sales .swiper-pagination-bullet {
+  background: #23262f;
+}
+
+.flash-sales .swiper-button-prev,
+.flash-sales .swiper-button-next {
+  background: #2610d0;
+  /* box-shadow: 0px 4px 10px rgba(15, 27, 51, 0.1); */
+  top: 100%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+/* .feature-section {
+  position: relative;
+  background-color: green;
+}
+
+.feature-section .swiper-pagination-bullet {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background-color: black;
+} */
+
+/* .flash-sales .swiper-pagination {
+	position: absolute;
+	top: -12px !important;
+	right: 10px;
+	width: auto !important;
+	left: auto !important;
+	margin: 0;
+  z-index: 100;
+} */
+
+/* .sample-swiper .swiper-pagination-bullets{
+  right: 0 !important;
+  top: 0 !important;
+} */
+
+/* .swiper-pagination{
+  position: absolute;
+  top: 50%;
+} */
+
+/* @media screen and (min-width: 600px) {
+  .new-arrival {
+    display: none !important;
+  }
+} */
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
